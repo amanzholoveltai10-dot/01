@@ -41,7 +41,7 @@ git push -u origin hw/01-psql             # отправляешь ветку н
 
 | # | Модуль | Длительность | Что ты будешь уметь в конце |
 |---|--------|-------------|------------------------------|
-| 0 | **Git и рабочее окружение** | 1 неделя | Ветки, коммиты, PR, ревью. Установленный PostgreSQL, знаешь где лежат его файлы |
+| 0 | **Git и PostgreSQL на Linux** | 1 неделя | Сдаёшь работы через PR. Знаешь версии и все пути кластера в Debian/Ubuntu, отличаешь reload от restart, правишь `postgresql.conf` и `pg_hba.conf` на живом кластере |
 | 1 | **psql и консольные утилиты** | 2 недели | Мета-команды `\d*`, `\l`, `\du`, `\x`, `\timing`, `\watch`, `\set`, `.psqlrc`; `createdb`, `pg_ctl`, `pg_isready`, `pg_controldata` — без гугла |
 | 2 | **Архитектура кластера и объекты** | 2 недели | Кластер → базы → схемы → объекты; каталог `PGDATA` по папкам; OID, файлы таблиц на диске, системный каталог `pg_catalog` |
 | 3 | **Роли, привилегии, `pg_hba.conf`** | 2 недели | Роли и наследование, `GRANT`/`REVOKE`, владельцы, `search_path`; порядок правил в `pg_hba.conf`, методы `scram-sha-256`, `peer`, `md5`, `trust`, `reject`; отладка «no pg_hba.conf entry» |
@@ -79,4 +79,4 @@ git push -u origin hw/01-psql             # отправляешь ветку н
     └── pull_request_template.md
 ```
 
-**Текущее задание:** [assignments/00-git-and-setup.md](assignments/00-git-and-setup.md)
+**Текущее задание:** [assignments/00-git-and-setup.md](assignments/00-git-and-setup.md) — PostgreSQL на Linux: версии, пути, команды, конфиги
